@@ -49,9 +49,9 @@ class App(ctk.CTk):
         self.initial_guess = None
         #243464
         # Constants
-        IMAGE_PATH1 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Oertical_extenso_fundo_claro_ok.png"
-        IMAGE_PATH2 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Configuracao1mec.png"
-        IMAGE_PATH3 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Configuracao2mec.png"
+        #IMAGE_PATH1 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Oertical_extenso_fundo_claro_ok.png"
+        #IMAGE_PATH2 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Configuracao1mec.png"
+        #IMAGE_PATH3 = "C:\\Users\\Daniel\\OneDrive\\Documentos\\TCC\\Configuracao2mec.png"
         self.FRAME_BG_COLOR = "#243464"
         self.LABEL_FONT = ("Arial", 15)
         self.LABEL_FONT_SMALL = ("Arial", 14)
@@ -85,12 +85,12 @@ class App(ctk.CTk):
     # -----------------------------
 
         # Load image
-        image1 = Image.open(IMAGE_PATH1)
-        image2 = Image.open(IMAGE_PATH2)
-        image3 = Image.open(IMAGE_PATH3)
-        ctk_image1 = ctk.CTkImage(image1, size=(300, 65))
-        ctk_image2 = ctk.CTkImage(image2, size=(300, 150))
-        ctk_image3 = ctk.CTkImage(image3, size=(300, 150))
+        #image1 = Image.open(IMAGE_PATH1)
+        #image2 = Image.open(IMAGE_PATH2)
+        #image3 = Image.open(IMAGE_PATH3)
+        #ctk_image1 = ctk.CTkImage(image1, size=(300, 65))
+        #ctk_image2 = ctk.CTkImage(image2, size=(300, 150))
+        #ctk_image3 = ctk.CTkImage(image3, size=(300, 150))
 
     # -----------------------------
     # Carregamento de imagens
@@ -127,8 +127,8 @@ class App(ctk.CTk):
         self.create_plots()
 
         # Display image
-        image_label1 = ctk.CTkLabel(self, image=ctk_image1, text="")
-        image_label1.place(x=1200, y=20)
+        #image_label1 = ctk.CTkLabel(self, image=ctk_image1, text="")
+        #image_label1.place(x=1200, y=20)
 
     def create_tab_view(self):
         """Cria a visualização em abas (tab view) usada pela interface.
