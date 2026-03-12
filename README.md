@@ -17,4 +17,4 @@ Author:
 Daniel Victor Krepsky
 Federal University of Santa Catarina (UFSC)
 Control and Automation Engineering
-Advisor: Prof. Dr. Leonardo Mejia Rincón
+Advisor: Prof. Dr. Leonardo Mejia Rincon
